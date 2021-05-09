@@ -17,7 +17,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private FloatingActionButton btAdd;
+    private FloatingActionButton btAdd, bt;
     private RecyclerView recyclerView;
     private RecyclerViewAdapter adapter;
     private SQLiteStudentOpenHelper db;
